@@ -1,0 +1,9 @@
+apiVersion: mxycontroller.github.com/v1alpha1
+kind: At
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: mxytest
+spec:
+  schedule: "2021-10-09T10:12:00Z"
+  command: "echo YAY"
